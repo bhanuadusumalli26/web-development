@@ -1,0 +1,10 @@
+/* body{
+    background-image:url(images.jfif);
+    background-repeat: no-repeat;
+    background: ;
+} */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}

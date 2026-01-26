@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ p{
+   color: blueviolet; 
+   font-size: 12px;
+   padding-left: 77px;
+   padding-top: 10px;
+ }
+ #formcontainer{
+    border: 3px solid black;
+    width: 230px;
+    height: 310px;
+    padding: 20px;
+    margin-top: 300px;
+    margin-left: 900px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    /* border-top: 10px solid black;
+    border-bottom:10px solid black ; */
+ }
+ button 
+ {
+    color: rgb(225, 213, 219);
+    background-color: rgb(155, 11, 74);
+    padding:5px ;
+    width: 100px;
+    height: 20px;
+    border-radius:8px ;
+    border:2px solid red ;
+    margin-left: 40px;
+    margin-bottom: 10px;
+ }
