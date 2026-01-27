@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1::before,h1::after{
+    content: "";
+    width: 100px;
+    height: 10px;
+    display: block;
+    background-color: blue;
+}
+/* .container h1::after{
+    content: "*";
+} */
+::selection{
+    background-color: blue;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: blueviolet;
+}
+::-webkit-scrollbar-thumb{
+    /* background-color: aquamarine; */
+    background: linear-gradient(to top ,red, orange, red);
+}
