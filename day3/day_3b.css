@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+width:100vw;
+height:100vw;
+display: flex;
+
+}
+.left{
+    height: 100vh;
+    width: 70%;
+    background-image: url("image2.webp");
+    /* background-color: blueviolet; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.right{
+    height: 60%;
+    width: 100vh;
+    /* background-color: brown; */
+    padding-left: 10rem;
+    padding-top: 15rem;
+}
+#logo{
+    width: 99%;
+}
+.login-container{
+    width: 20rem;
+    height:20rem;
+    border:3px solid bisque;
+
+}
+h1{
+    color: black;
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: larger;
+}
+
+#formcontainer{
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display:auto;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    background-color: rgb(109, 214, 12);
+ }
+ button 
+ {
+    color:white;
+    background-color: rgba(101, 226, 43, 0.877);
+    padding:5px ;
+    width: 100px;
+    height: 50px;
+    border-radius:8px ;
+    border:2px solid rgba(10, 146, 69, 0.955) ;
+    margin-left: 40px;
+    margin-bottom: 10px;
+ }
+ #username,#password
+ { 
+    border: 2px solid black;
+    border-radius: 10px;
+    width:170px;
+    height:50px;
+    padding: 10px;
+    background-color:white;
+}
+ 
