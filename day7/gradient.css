@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    border: 2px solid red;
+    /* box-shadow: 5px 10px blueviolet; */
+}
+/* #box1{
+    background:linear-gradient(to bottom,white,red,blue);
+}
+#box2{
+    background:conic-gradient( white,red,yellow,green);
+}
+#box3{
+    background: radial-gradient(red,blue);
+}
+h1{
+    color: rgb(255, 0, 47);
+    text-shadow:2px 5px blue;
+}
+#box4{
+    box-shadow: 5px 10px rebeccapurple ;
+} */
+#box5{
+    overflow: auto;
+}

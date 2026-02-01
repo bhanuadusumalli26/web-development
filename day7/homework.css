@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr ;
+    grid-template-rows: 0.15fr 0.05fr 1fr 0.15fr;
+    grid-template-areas: "nav nav"
+                         "dif1 dif2"
+                        "content1 content2"
+                       " footer   footer ";
+}
+.nav{
+    background-color: rgb(13, 14, 14);
+    grid-area: nav;
+}
+#dif1{
+    background-color: rgb(255, 68, 0);
+    grid-area: dif1;
+}
+#dif2{
+    background-color: rgb(226, 134, 43);
+    grid-area: dif2;
+}
+#content1{
+    background-color: rgb(255, 0, 191);
+    grid-area: content1;
+}
+#content2{
+    background-color: rgb(204, 0, 255);
+    grid-area: content2;
+}
+.footer{
+    background-color: purple;
+    grid-area: footer ;
+}
